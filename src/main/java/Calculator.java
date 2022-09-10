@@ -68,7 +68,6 @@ class Calculator {
     //Checking updates
     String createUniqueID(String n){
         String unique = UUID.randomUUID().toString();
-        System.out.println(unique);
         return n + unique;
     }
 
