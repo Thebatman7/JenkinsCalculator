@@ -1,8 +1,8 @@
 pipeline {
     environment {
-            registry = "theba7man/204_jenkins_calc_app_intellij"
+            registry = "rembrand7/204_jenkins_calc_app_intellij"
             registryCredential = 'dockerhub'
-            dockerImage=''
+            dockerImage = ''
     }
     agent any
     tools {
